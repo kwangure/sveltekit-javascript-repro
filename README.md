@@ -7,7 +7,7 @@ npm install
 npm run dev
 ```
 
-## Issue 1
+## Issue 1 (https://github.com/sveltejs/kit/issues/1653)
 SvelteKit inserts HMR reload code in stringified JavaScript in DEV mode.
 ```html
 <code>
@@ -24,7 +24,7 @@ const product = 1 * 1; import * as ___SVELTE_HMR_HOT_API from '/sveltekit-javasc
 ```
 Visit [localhost:3000](localhost:3000) for repro.
 
-## Issue 2
+## Issue 2 (https://github.com/sveltejs/kit/issues/1653)
 Vite thinks I'm including JSX and throws when I have JavaScript text in a component slot.
 ```svelte
 <script>
