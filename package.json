@@ -1,0 +1,20 @@
+{
+    "name": "sveltekit-javascript-repro",
+    "version": "0.1.0",
+    "description": "Issue repro",
+    "scripts": {
+        "build": "rm -rf ./build && svelte-kit build",
+        "dev": "svelte-kit dev",
+        "preview": "svelte-kit preview"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-static": "^1.0.0-next.13",
+        "@sveltejs/kit": "^1.0.0-next.113",
+        "svelte": "^3.38.2",
+        "svelte-preprocess": "^4.6.9"
+    },
+    "peerDependencies": {
+        "svelte": "^3.35.0"
+    },
+    "type": "module"
+}
